@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anesha Alam | Portfolio</title>
+  <style>
+    /* Reset and general styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f8f9fa;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      background: #ffffff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    }
+
+    header {
+      border-bottom: 2px solid #e9ecef;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      color: #1a252f;
+      margin-bottom: 5px;
+    }
+
+    .subtitle {
+      font-size: 1.1rem;
+      color: #6c757d;
+      font-weight: 500;
+    }
+
+    section {
+      margin-bottom: 35px;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      color: #a31920; /* Rutgers Scarlet */
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      border-bottom: 1px solid #f1f3f5;
+      padding-bottom: 5px;
+    }
+
+    /* Personal Statement */
+    .statement-text {
+      font-size: 1.15rem;
+      color: #2c3e50;
+      background-color: #f8f9fa;
+      border-left: 4px solid #a31920;
+      padding: 15px 20px;
+      border-radius: 0 8px 8px 0;
+      font-style: italic;
+    }
+
+    /* Skills Section */
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      list-style: none;
+    }
+
+    .skills-list li {
+      background-color: #e9ecef;
+      color: #343a40;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 0.95rem;
+      font-weight: 500;
+    }
+
+    /* Projects Section */
+    .project-card {
+      background: #ffffff;
+      border: 1px solid #e9ecef;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 15px;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .project-card h3 {
+      font-size: 1.2rem;
+      color: #1a252f;
+      margin-bottom: 8px;
+    }
+
+    .project-card p {
+      color: #495057;
+      font-size: 0.95rem;
+      margin-bottom: 12px;
+    }
+
+    .project-links a {
+      display: inline-block;
+      margin-right: 15px;
+      color: #0056b3;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+    .project-links a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid #e9ecef;
+      color: #6c757d;
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>Anesha Alam</h1>
+      <p class="subtitle">Finance Major | Rutgers Business School (Class of 2029)</p>
+    </header>
+
+    <!-- SECTION 1: Personal Statement -->
+    <section id="statement">
+      <h2>Personal Statement</h2>
+      <p class="statement-text">
+        My name is Anesha Alam, I am a Finance major I aspire to work in Risk Management and I want to grow my skill set at Rutgers Business School in order to best prepare for my future career.
+      </p>
+    </section>
+
+    <!-- SECTION 2: Skills -->
+    <section id="skills">
+      <h2>Highlight Skills</h2>
+      <ul class="skills-list">
+        <li>Financial Modeling & Valuation</li>
+        <li>Risk Assessment & Management</li>
+        <li>Data Analysis (Excel, PivotTables)</li>
+        <li>Financial Statement Analysis</li>
+        <li>Quantitative Analysis</li>
+        <li>Business Communication</li>
+      </ul>
+    </section>
+
+    <!-- SECTION 3: Projects -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <!-- Project 1 -->
+      <div class="project-card">
+        <h3>AI Stock Market Sentiment & Prediction Model</h3>
+        <p>Collaborated on developing an AI predictive model designed to analyze market sentiment by tracking real-time public communications, including presidential social media posts, to forecast short-term stock market shifts and volatility.</p>
+        <div class="project-links">
+          <a href="#" target="_blank">View Code / Repo</a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <h3>School Air Quality & Student Health Initiative</h3>
+        <p>Conducted a comprehensive survey assessing indoor air quality across school buildings to safeguard student health and protect peers with allergies. Advocated for and promoted the integration of classroom air purifiers, successfully raising environmental awareness and improving campus air safety.</p>
+        <div class="project-links">
+          <a href="#" target="_blank">View Code / Repo</a>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <h3>Personal Web Portfolio</h3>
+        <p>Designed and published a responsive, personal digital business card using HTML and CSS on GitHub Pages to showcase technical projects, academic credentials, and career goals in finance and risk management.</p>
+        <div class="project-links">
+          <a href="#" target="_blank">View Code / Repo</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 Anesha Alam. Rutgers Business School Portfolio.</p>
+    </footer>
+  </div>
+
+</body>
+</html>
